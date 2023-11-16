@@ -1,0 +1,16 @@
+# DISCLAIMER
+# This is an example of input for EC Pollard Rho
+# You may assume that the input is correct:
+# -- a, b do define an elliptic curve over GF(p)
+# -- P is a point on the curve
+# -- n is the order of P (the size of <P>)
+# -- Q is a multiple of P
+# You may also assume that I will test your code with the same order of parameters, and with the same disclaimer
+
+Input:
+p = 16001
+a = 10
+b = 1
+P = (1654, 7208)
+n = 8026
+Q = (5000, 1283)

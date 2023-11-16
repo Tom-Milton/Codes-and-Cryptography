@@ -1,0 +1,22 @@
+# Here are the domain parameters and the messages exchanged by Alice and Bob during ECDH
+# The result is a 56-bit key, say k
+# If you find that k is a (say) 52-bit number, then add 4 zeros to the front to obtain 56 bits
+
+
+p = 20376993552394903
+a = 10
+b = 1
+P = (1983, 6761152449250519)
+n = 1852453970120513
+QA= (18586784116581871, 12161036958498472)
+QB= (18432261261031243, 11140924411855488)
+
+# After this key exchange, Alice encrypted a short message:
+# -- text encoded in utf-8
+# -- using DES, ECB mode of operation, with padding
+# If you are using the des python package, you will need to augment your key to 64 bits
+# The process to go from 56 bits to 64 bits is given in Lecture 2
+# The ciphertext is given in hexadecimal below
+# You can create bytes from hexadecimal via bytes.fromhex(ciphertext)
+
+ciphertext = 3da46f7b6fa82f53153908bdadcc742ac38e8691e5208aa4bf6be47240c71e75180b9d1030a00810

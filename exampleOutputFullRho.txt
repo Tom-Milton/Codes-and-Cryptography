@@ -1,0 +1,23 @@
+# DISCLAIMER
+# Example of output for Full Pollard Rho
+# You needn't write the disclaimer but please write the inputs so it's easier for me to check your results
+# IMPORTANT: 
+# 1. You may not necessarily get the same collision than I did for this example. 
+# 2. A "collision" where c=c' and d=d' is not valid.
+
+Input:
+p = 16001
+a = 10
+b = 1
+P = (1654, 7208)
+n = 8026
+Q = (5000, 1283)
+
+Collision:
+c = 159
+d = 161 
+c'= 271
+d'= 349
+
+Discrete logarithm:
+l = 1024
